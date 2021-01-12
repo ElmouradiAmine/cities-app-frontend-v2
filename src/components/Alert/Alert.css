@@ -1,0 +1,16 @@
+.alert {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    grid-column: 1/-1;
+
+}
+
+.alert--success {
+    background-color: var(--color-success);
+}
+
+.alert--danger {
+    background-color: var(--color-danger);
+}

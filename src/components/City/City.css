@@ -1,0 +1,13 @@
+.city {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: var(--color-accent);
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.city__postalCode {
+    color: rgba(140, 143, 154, 1);
+}

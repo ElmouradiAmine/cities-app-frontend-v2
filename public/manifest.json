@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Villes Française",
+  "name": "Cherche les villes françaises par nom ou par code postal",
   "icons": [
     {
       "src": "favicon.ico",

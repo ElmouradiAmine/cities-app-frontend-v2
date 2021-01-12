@@ -1,0 +1,38 @@
+.city-input {
+    background-color: var(--color-background-dark);
+    border-radius: 10px;
+
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+    display: flex;
+    padding: 10px 30px;
+}
+
+.city-input__label {
+    font-weight: bold;
+    font-size: 30px;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.city-input__input {
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-background-light);
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.city-input__input::placeholder {
+    opacity: 0.3;
+}
+
+
+.city-input__input:focus {
+    border: 1px solid var(--color-accent);
+    outline: none;
+}
